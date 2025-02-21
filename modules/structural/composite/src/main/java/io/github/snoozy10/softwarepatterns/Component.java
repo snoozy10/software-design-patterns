@@ -13,8 +13,12 @@ public abstract class Component {
     }
     public String getLevelPrefix(int level) {
         StringBuilder levelPrefixStr = new StringBuilder();
-        if (level != 0) levelPrefixStr.append("|");
-        levelPrefixStr.append("-".repeat(level*2));
+        if (level != 0) {
+            levelPrefixStr.append("\t".repeat(level-1));
+            levelPrefixStr.append("├──");
+            levelPrefixStr.append("──".repeat(level-1));
+            levelPrefixStr.append(" ");
+        }
         return String.valueOf(levelPrefixStr);
     }
     public abstract void printHierarchy(int level);

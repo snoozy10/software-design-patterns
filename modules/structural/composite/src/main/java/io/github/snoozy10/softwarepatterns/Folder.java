@@ -6,7 +6,7 @@ import java.util.List;
 public class Folder extends Component {
     private List<Component> components;
     public Folder(String name) {
-        super(name);
+        super(name + "/");
         this.components = new ArrayList<Component>();
     }
     public List<Component> getSupervisedEmployees() {
