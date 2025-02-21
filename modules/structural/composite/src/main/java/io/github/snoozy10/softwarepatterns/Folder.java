@@ -21,7 +21,7 @@ public class Folder extends Component {
     }
 
     public void printHierarchy(int level) {
-        super.printName(level);
+        super.printComponent(level);
         for (Component component : components) {
             component.printHierarchy(level + 1);
         }

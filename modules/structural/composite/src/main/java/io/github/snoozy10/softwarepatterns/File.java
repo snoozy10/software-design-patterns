@@ -7,6 +7,6 @@ public class File extends Component {
     }
 
     public void printHierarchy(int level) {
-        super.printName(level);
+        super.printComponent(level);
     }
 }

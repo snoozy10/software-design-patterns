@@ -8,8 +8,8 @@ public abstract class Component {
     public String getName() {
         return this.name;
     }
-    public void printName(int level) {
-        System.out.println(getLevelPrefix(level) + this.name);
+    public void printComponent(int level) {
+        System.out.println(getLevelPrefix(level) + this.getName());
     }
     public String getLevelPrefix(int level) {
         StringBuilder levelPrefixStr = new StringBuilder();
@@ -21,6 +21,6 @@ public abstract class Component {
         }
         return String.valueOf(levelPrefixStr);
     }
-    public abstract void printHierarchy(int level);
 
+    public abstract void printHierarchy(int level);
 }
