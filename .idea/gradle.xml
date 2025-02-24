@@ -9,12 +9,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/modules" />
-            <option value="$PROJECT_DIR$/modules/structural" />
-            <option value="$PROJECT_DIR$/modules/structural/bridge" />
-            <option value="$PROJECT_DIR$/modules/structural/composite" />
-            <option value="$PROJECT_DIR$/modules/structural/facade" />
-            <option value="$PROJECT_DIR$/modules/structural/proxy" />
+            <option value="$PROJECT_DIR$/structural" />
+            <option value="$PROJECT_DIR$/structural/adapter" />
+            <option value="$PROJECT_DIR$/structural/bridge" />
+            <option value="$PROJECT_DIR$/structural/build" />
+            <option value="$PROJECT_DIR$/structural/composite" />
+            <option value="$PROJECT_DIR$/structural/facade" />
+            <option value="$PROJECT_DIR$/structural/proxy" />
+            <option value="$PROJECT_DIR$/structural/src" />
           </set>
         </option>
       </GradleProjectSettings>

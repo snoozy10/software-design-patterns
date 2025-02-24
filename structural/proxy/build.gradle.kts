@@ -5,6 +5,10 @@ plugins {
 group = "io.github.snoozy10.softwarepatterns"
 version = "1.0-SNAPSHOT"
 
+application {
+    mainClass.set("io.github.snoozy10.softwarepatterns.ClientBrowser")
+}
+
 repositories {
     mavenCentral()
 }

@@ -1,9 +1,10 @@
 rootProject.name = "software-design-patterns"
-include("modules:structural:bridge")
-//findProject(":modules:structural:bridge")?.name = "bridge"
-include("modules:structural:composite")
-//findProject(":modules:structural:composite")?.name = "composite"
-include("modules:structural:facade")
-//findProject(":modules:structural:facade")?.name = "facade"
-include("modules:structural:proxy")
-findProject(":modules:structural:proxy")?.name = "proxy"
+
+// Include all parent modules (structural, creational, behavioral)
+include(":structural")
+
+// Dynamically include all subprojects (design patterns)
+file("structural").listFiles()?.forEach { dir ->
+    if (dir.isDirectory) include(":structural:${dir.name}")
+}
+
