@@ -3,6 +3,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+*.ini
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -11,7 +12,6 @@ build/
 .idea/libraries/
 *.iws
 *.iml
-*.ini
 *.ipr
 out/
 !**/src/main/**/out/
