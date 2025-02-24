@@ -5,3 +5,5 @@ include("modules:structural:composite")
 //findProject(":modules:structural:composite")?.name = "composite"
 include("modules:structural:facade")
 //findProject(":modules:structural:facade")?.name = "facade"
+include("modules:structural:proxy")
+findProject(":modules:structural:proxy")?.name = "proxy"
