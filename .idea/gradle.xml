@@ -9,14 +9,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/structural" />
-            <option value="$PROJECT_DIR$/structural/adapter" />
-            <option value="$PROJECT_DIR$/structural/bridge" />
-            <option value="$PROJECT_DIR$/structural/build" />
-            <option value="$PROJECT_DIR$/structural/composite" />
-            <option value="$PROJECT_DIR$/structural/facade" />
-            <option value="$PROJECT_DIR$/structural/proxy" />
-            <option value="$PROJECT_DIR$/structural/src" />
+            <option value="$PROJECT_DIR$/grp-behavioral" />
+            <option value="$PROJECT_DIR$/grp-behavioral/observer" />
+            <option value="$PROJECT_DIR$/grp-behavioral/strategy" />
+            <option value="$PROJECT_DIR$/grp-structural" />
+            <option value="$PROJECT_DIR$/grp-structural/adapter" />
+            <option value="$PROJECT_DIR$/grp-structural/bridge" />
+            <option value="$PROJECT_DIR$/grp-structural/composite" />
+            <option value="$PROJECT_DIR$/grp-structural/facade" />
+            <option value="$PROJECT_DIR$/grp-structural/proxy" />
+            <option value="$PROJECT_DIR$/grp-structural/src" />
           </set>
         </option>
       </GradleProjectSettings>
